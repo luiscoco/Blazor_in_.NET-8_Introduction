@@ -206,6 +206,26 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/d1573c98-2126-4411-8e6b-695c75a05de6)
 
+### 8.1. Template 1 (Blazor Web App)
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/b584949d-2b57-4b1d-ac9d-368109205db5)
+
+
+### 8.2. Template 2 (Blazor WebAssembly Standalone App)
+
+
+
+### 8.3. Template 3 (Blazor WebAssembly App Empty)
+
+
+
+### 8.4. Template 4 (Blazor Server App)
+
+
+
+### 8.5. Template 5 (Blazor Server App Empty)
+
+
 
 
 ## 9. Blazor project templates in VSCode
