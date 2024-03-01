@@ -381,4 +381,12 @@ dotnet new list
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/9ce15a83-a574-4ebc-9306-b7ec485549d2)
 
+For example we can create a new blazor apps with the following commands:
 
+```
+dotnet new blazorserver
+```
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/03f8dca3-a367-4d47-9189-0e3166b3aaad)
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/68e4b76d-08d8-4f93-8884-eadc66b3e2d4)
