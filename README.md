@@ -212,7 +212,15 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
 
 ### 8.1. Template 1 (Blazor Web App)
 
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/b4f86f75-b55d-4452-8717-d0d0d2851ae6)
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/ab6812e9-1c41-44ae-b7de-3003dae94cbb)
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/c019511d-cdfe-4cab-a1bb-f7a82113c807)
+
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/b584949d-2b57-4b1d-ac9d-368109205db5)
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/c9198d89-ff78-4f2c-8a3f-7e4ab0942116)
 
 This is the application middleware(program.cs)
 
