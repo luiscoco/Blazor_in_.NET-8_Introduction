@@ -2,13 +2,15 @@
 
 Blazor is a component based **SPA(Single Page Application)** that achieves interactiviy with C#
 
+Blazor is a framework that allows us to create interactive applications that will be used, mainly, though a web browser
+
 See also this video in youtube: https://www.youtube.com/watch?v=gq1ySblcyA8
 
 ![image](https://github.com/luiscoco/Blazor_video1/assets/32194879/27ce5b9f-874e-4a04-be45-eaca8dc9d896)
 
 ## 1. What is Blazor?
 
-Blazor is a powerful web framework from Microsoft that lets you build interactive web applications using C# instead of relying solely on JavaScript. Here's why it's interesting:
+Blazor is a powerful web framework from Microsoft that lets you build interactive web applications using C# instead of relying solely on JavaScript:
 
 **C# Everywhere**: If you know C#, you can build both the frontend (what the user sees) and backend (server-side logic) of your web applications
 
@@ -18,7 +20,7 @@ Blazor is a powerful web framework from Microsoft that lets you build interactiv
 
 **Blazor Server**: Your components run on the server, and UI updates are sent to the browser over a real-time connection (SignalR). Excellent for fast initial page load and real-time applications
 
-**Blazor WebAssembly (Wasm)**: Your components run directly in the browser using WebAssembly (a low-level, high-performance code format). Great for offline capabilities and reducing server load
+**Blazor WebAssembly (WASM)**: Your components run directly in the browser using WebAssembly (a low-level, high-performance code format). Great for offline capabilities and reducing server load
 
 **.NET 8 Enhancements**
 
@@ -83,3 +85,23 @@ Blazor is a powerful web framework from Microsoft that lets you build interactiv
 **Blazor Testing**: Unit and integration testing of Blazor components
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+## 4. Blazor Web Assembly
+
+We can use WebAssembly to execute .NET apps in a web browser
+
+Blazor (client-side)
+
+Blazor (client-side + ASP.NET Core)
+
+We run .NET Core in the browser
+
+We need WebAssembly
+
+Advantage: highly scalable
+
+Disadvantage: Downloading the .NET runtime + DLLs
+
+## 5. Blazor Server-Side
+
+
