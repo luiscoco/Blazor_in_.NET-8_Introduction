@@ -208,8 +208,6 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
   
 - **Blazor Server App Empty**: an empty project template for creating a Blazor server app that runs server-side inside an ASP.NET Core app and handles user interactions over a SignalR connection. This template does not have any content in it.
 
-![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/d1573c98-2126-4411-8e6b-695c75a05de6)
-
 ### 8.1. Template 1 (Blazor Web App)
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/b4f86f75-b55d-4452-8717-d0d0d2851ae6)
