@@ -116,6 +116,9 @@ Blazor server-side limitations relate to the server
 
 Disadvantage: latency 
 
+## 6. Hosting models
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/2557158f-6aa8-4dc7-b736-7716ae5dfa9d)
 
 
 
