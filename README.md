@@ -120,7 +120,71 @@ Disadvantage: latency
 
 ## 6. Hosting models
 
-![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/2557158f-6aa8-4dc7-b736-7716ae5dfa9d)
+Here's a breakdown of the key differences between Blazor WebAssembly and Blazor Server-Side, along with guidance on choosing the right model:
+
+**Blazor WebAssembly (WASM)**
+
+How it works: Your C# Blazor components run directly in the user's web browser using a WebAssembly-based .NET runtime
+
+The entire app (its components, .NET dependencies, and runtime) is downloaded to the browser at startup
+
+**Pros**:
+
+Offline capabilities: Apps can work even without an active network connection (if designed appropriately)
+
+Reduced server load: The client's browser handles most of the processing
+
+Leverage client resources: Access client-specific hardware or browser APIs if required
+
+**Cons**:
+
+Larger download size: Initial download can be slower, especially on less powerful devices or limited networks
+
+Performance limitations: May perform less optimally compared to Blazor Server for highly CPU-intensive tasks, due to the constraints of WebAssembly execution
+
+.NET compatibility: Not every .NET API is available in the WebAssembly environment
+
+**Blazor Server-Side**
+
+How it works: Your Blazor components run entirely on the server. User interactions and UI updates are sent over a real-time SignalR connection between client and server
+
+**Pros**:
+
+Faster initial load: Smaller download size means the app appears faster in the browser
+
+Full .NET access: Full access to all .NET APIs available on the server
+
+Simplified development (sometimes): No need to consider offline scenarios
+
+Thinner clients: Great for users with older devices or less-powerful browsers
+
+**Cons**:
+
+Scalability demands: Increased server-side load as the number of users grows
+
+Dependency on network: A constantly active network connection is essential for the app to work
+
+Higher latency: UI updates might feel slightly less snappy compared to WebAssembly due to network roundtrips
+
+**When to Choose Which**
+
+Consider these factors when deciding between WASM and Server-Side:
+
+Offline support: If offline capabilities are crucial, Blazor WebAssembly is the way to go
+
+Performance needs: For raw computational speed and very frequent UI updates, Blazor Server-Side often has an edge
+
+Deployment complexity: Blazor Server-Side apps are generally simpler to deploy
+
+Security: Blazor Server-Side may be slightly more secure, as your app logic does not leave the server
+
+Development resources: Do your developers have strong C#/.NET skills? Both are C#-based, but debugging Blazor WebAssembly can sometimes be trickier
+
+**Additional Considerations**
+
+Blazor Hybrid: This model gives you the flexibility to mix WASM and Server components
+
+Project evolution: Be aware that technology is evolving quickly; the differences between these models might narrow over time
 
 ## 7. First Blazor samples
 
