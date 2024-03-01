@@ -130,6 +130,19 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
 
 ## 8. Blazor project templates in Visual Studio 2022 Community Edition
 
+- **Blazor Web App**: a project template for creating a Blazor web app that supports both server-side rendering and client interactively. This template can be used for web apps with rich dynamic user interfaces (UIs).
+    
+- **Blazor WebAssembly Standalone App**: a project template for creating a Blazor app than runs on WebAssembly. This template can be used for web apps with rich dynamic user interfaces (UIs).
+
+- **Blazor WebAssembly App Empty**: an empty template for creating a Blazor app than runs on WebAssembly and is optionally hosted by an ASP.NET Core app. This template does not have any content in it.
+
+- **Blazor Server App**: a project template for creating a Blazor server app that runs server-side inside an ASP.NET Core app and handles user interactions over a SignalR connection. This template can be used for web apps with rich dynamic user interfaces (UIs).
+  
+- **Blazor Server App Empty**: an empty project template for creating a Blazor server app that runs server-side inside an ASP.NET Core app and handles user interactions over a SignalR connection. This template does not have any content in it.
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/d1573c98-2126-4411-8e6b-695c75a05de6)
+
+
 
 ## 9. Blazor project templates in VSCode
 
