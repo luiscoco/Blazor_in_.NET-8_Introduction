@@ -283,6 +283,42 @@ The **Routes.razor** file is invoked with the **Routes** tag defined inside the 
 
 The Routes.razor established as DefaultLayout the **MainLayout.razor** file
 
+This is the **MainLayout.razor** page content
+
+This page contains two main tags: 
+
+- The navigation component (**NavMenu**). This component shows the menu option in the left hand side window
+
+- The **@Body** tag, for rendering the pages content in the **MainLayout** page
+
+**MainLayout.razor**
+
+```razor
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+```
+
 
 
 ### 8.2. Template 2 (Blazor WebAssembly Standalone App)
