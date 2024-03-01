@@ -390,3 +390,8 @@ dotnet new blazorserver
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/03f8dca3-a367-4d47-9189-0e3166b3aaad)
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/68e4b76d-08d8-4f93-8884-eadc66b3e2d4)
+
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/3cae3271-f3c6-4cb3-ab20-22fb9c546eb3)
+
+
+
