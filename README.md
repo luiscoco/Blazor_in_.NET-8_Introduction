@@ -1,5 +1,7 @@
 # Blazor in .NET 8: Introduction
 
+https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0
+
 Blazor is a component based **SPA(Single Page Application)** that achieves interactiviy with C#
 
 Blazor is a framework that allows us to create interactive applications that will be used, mainly, though a web browser
@@ -119,6 +121,17 @@ Disadvantage: latency
 ## 6. Hosting models
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/2557158f-6aa8-4dc7-b736-7716ae5dfa9d)
+
+## 7. First Blazor samples
+
+https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
+
+https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
+
+## 8. Blazor project templates in Visual Studio 2022 Community Edition
+
+
+## 9. Blazor project templates in VSCode
 
 
 
