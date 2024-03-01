@@ -379,8 +379,6 @@ We can list the blazor CLI templates with the following command:
 dotnet new list
 ```
 
-![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/671aee91-181d-4d77-b18e-e5b7cfd5ccc6)
-
-
+![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/9ce15a83-a574-4ebc-9306-b7ec485549d2)
 
 
