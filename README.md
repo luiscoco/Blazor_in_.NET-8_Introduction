@@ -210,6 +210,10 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/b584949d-2b57-4b1d-ac9d-368109205db5)
 
+This is the application middleware(program.cs)
+
+**program.cs**
+
 ```csharp
 using BlazorApp1.Components;
 
@@ -238,6 +242,48 @@ app.MapRazorComponents<App>()
 
 app.Run();
 ```
+
+The **App.razor** page is invoked from the application middleware(program.cs):
+
+**App.razor**
+
+```razor
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="BlazorApp1.styles.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <HeadOutlet />
+</head>
+
+<body>
+    <Routes />
+    <script src="_framework/blazor.web.js"></script>
+</body>
+
+</html>
+```
+
+The **Routes.razor** file is invoked with the **Routes** tag defined inside the **App.razor** page
+
+```razor
+<Router AppAssembly="typeof(Program).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
+</Router>
+```
+
+The Routes.razor established as DefaultLayout the **MainLayout.razor** file
+
+
 
 ### 8.2. Template 2 (Blazor WebAssembly Standalone App)
 
