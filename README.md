@@ -104,4 +104,18 @@ Disadvantage: Downloading the .NET runtime + DLLs
 
 ## 5. Blazor Server-Side
 
+The Blazor application runs on the server, and the user interacts with it through a SignalR connection
+
+Advantage: Devices with less resources should be able to run the application without problems
+
+Blazor server-side limitations relate to the server
+
+1 vCPU - 3.5 Gb of memory handles over 5000 users concurrently
+
+4 vCPU - 14 Gb of memory handles over 20000 users concurrently
+
+Disadvantage: latency 
+
+
+
 
