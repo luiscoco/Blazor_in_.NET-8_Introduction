@@ -14,6 +14,10 @@ See also this video in youtube: https://www.youtube.com/watch?v=gq1ySblcyA8
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/7234887d-db0e-4841-9939-2271cabee388)
 
+See this Youtube video explaining the applicacion flow:
+
+https://www.youtube.com/watch?v=MFyJ1hrYdxc
+
 ## 1. What is Blazor?
 
 Blazor is a powerful web framework from Microsoft that lets you build interactive web applications using C# instead of relying solely on JavaScript:
