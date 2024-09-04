@@ -210,6 +210,8 @@ https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/modify
 
 ### 8.1. Template 1 (Blazor Web App)
 
+https://www.youtube.com/watch?v=kbvdnUTZ_xA&t=4s
+
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/b4f86f75-b55d-4452-8717-d0d0d2851ae6)
 
 ![image](https://github.com/luiscoco/Blazor_in_.NET-8_Introduction/assets/32194879/ab6812e9-1c41-44ae-b7de-3003dae94cbb)
