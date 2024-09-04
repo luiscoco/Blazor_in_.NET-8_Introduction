@@ -385,6 +385,8 @@ The navigation component (**NavMenu**), see the menu options in the following co
 
 ## 9. Blazor project templates in VSCode
 
+https://www.youtube.com/watch?v=aVkddRsOx1w&t=21s
+
 We can list the blazor CLI templates with the following command:
 
 ```
